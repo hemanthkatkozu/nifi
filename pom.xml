@@ -616,6 +616,14 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>JFROG-ARTIFACTORY-snapshots</name>
+            <url>http://54.209.3.131:8081/artifactory/libs-snapshot-local</url>
+        </snapshotRepository>
+    </distributionManagement>
+    
     <build>
         <pluginManagement>
             <plugins>
